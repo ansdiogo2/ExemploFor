@@ -3,8 +3,8 @@ package br.senac.am;
 public class MinhasFuncoes {
 	protected static String estadosDoAluno;
 	
-	//Criar um método que definido um intervalo ele imprima pares 
-	//Os numeros do intervalo
+	//Criar um método que definido um intervalo ele imprima pares  
+	//Os numeros do intervalo 
 	
 	public static void imprimirNumeros(int inicial, int fim) {
 		for(int i = inicial; i <= fim; i++) {
