@@ -3,7 +3,7 @@ package br.senac.am;
 import java.util.Iterator;
 
 public class ExemploFor {
-	protected static String aluno;
+	protected static String estadosDoAluno;
 
 	public ExemploFor() {
 		// TODO Auto-generated constructor stub
@@ -11,12 +11,12 @@ public class ExemploFor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
-		System.out.println(aluno);
+		System.out.println(estadosDoAluno);
 
 		imprimirNumeros();
 		imprimirParesComFor();
 		imprimirParesComWhile();
-		System.out.println(aluno);
+		System.out.println(estadosDoAluno);
 
 	}
 	
@@ -31,7 +31,7 @@ public class ExemploFor {
 
 	private static void imprimirNumeros() {
 		// Imprimir números pares de 1 a 9
-		aluno = "Igor";
+		estadosDoAluno = "Estado do Aluno Igor definido";
 		for(int i = 1; i <=9; i ++) {
 			System.out.println("Numero: "+i);
 		}
