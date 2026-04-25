@@ -18,9 +18,5 @@ public class ExemploFor {
 		MinhasFuncoes.imprimirParesComWhile();
 		
 		System.out.println(MinhasFuncoes.estadosDoAluno);
-
 	}
-	
-	
-
 }

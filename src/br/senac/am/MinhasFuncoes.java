@@ -3,13 +3,17 @@ package br.senac.am;
 public class MinhasFuncoes {
 	protected static String estadosDoAluno;
 	
-	public static void imprimirParesComWhile() {
+	//Criar um método que definido um intervalo ele imprima 
+	//Os numeros do intervalo
+	
+	public static void imprimirParesComWhile() { // Public para visualizar em outra classe
 		// TODO Auto-generated method stub
 		int contadorPar = 0;
 		while(contadorPar <= 21) {
 			System.out.println("Número par: " + contadorPar);
 			contadorPar =contadorPar+2;
 		}
+		imprimirCMD("fim de loop");
 	}
 
 	public static void imprimirNumeros() {
@@ -18,7 +22,8 @@ public class MinhasFuncoes {
 		for(int i = 1; i <=9; i ++) {
 			System.out.println("Numero: "+i);
 		}
-		System.out.println("fim de loop");
+		//System.out.println("fim de loop");
+		imprimirCMD("fim de loop");
 	}
 
 	public static void imprimirParesComFor() {
@@ -26,7 +31,12 @@ public class MinhasFuncoes {
 		for(int i = 0; i <=21; i=i+2) {
 			System.out.println("Numero: "+i);
 		}
-		System.out.println("fim de loop");
+		//System.out.println("fim de loop");
+		imprimirCMD("fim de loop");
+	}
+	
+	private static void imprimirCMD(String texto) {
+		System.out.println(texto);
 	}
 
 }
