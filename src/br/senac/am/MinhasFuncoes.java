@@ -3,8 +3,15 @@ package br.senac.am;
 public class MinhasFuncoes {
 	protected static String estadosDoAluno;
 	
-	//Criar um método que definido um intervalo ele imprima 
+	//Criar um método que definido um intervalo ele imprima pares 
 	//Os numeros do intervalo
+	
+	public static void imprimirNumeros(int inicial, int fim) {
+		for(int i = inicial; i <= fim; i++) {
+			System.out.println("imprimirNumeros: Numero: " + i);
+		}
+		imprimirCMD("Fim do intervalo de "+inicial+" até o "+fim);
+	}
 	
 	public static void imprimirParesComWhile() { // Public para visualizar em outra classe
 		// TODO Auto-generated method stub

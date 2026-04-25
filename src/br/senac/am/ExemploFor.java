@@ -16,6 +16,7 @@ public class ExemploFor {
 		MinhasFuncoes.imprimirNumeros();
 		MinhasFuncoes.imprimirParesComFor();
 		MinhasFuncoes.imprimirParesComWhile();
+		MinhasFuncoes.imprimirNumeros(0, 9);
 		
 		System.out.println(MinhasFuncoes.estadosDoAluno);
 	}
