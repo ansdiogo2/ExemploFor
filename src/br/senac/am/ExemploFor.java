@@ -15,7 +15,11 @@ public class ExemploFor {
 			System.out.println("Numero: "+i);
 		}
 		System.out.println("fim de loop");
-		
+		// Imprimir números pares de 0 a 21
+		for(int i = 1; i <=9; i=i+2) {
+			System.out.println("Numero: "+i);
+		}
+		System.out.println("fim de loop");
 	}
 
 }
